@@ -1,7 +1,7 @@
-<i>Last updated: August 1, 2022 5:40 PM</i>
+<i>Last updated: August 2, 2022 9:59 AM</i>
 
 ### Form validation guide
-This is guide on how to use form validation on our [web-next](https://github.com/uuppyy/web-next) app, the validation using `useValidator` composable functions, you can learn how it works [here](https://github.com/uuppyy/web-next/blob/main/composables/useValidator.ts).
+This is a guide of how to use form validation on our [web-next](https://github.com/uuppyy/web-next) app, the validation using `useValidator` composable function, you can learn how it works [here](https://github.com/uuppyy/web-next/blob/main/composables/useValidator.ts).
 
 #### Tag used
 ```
@@ -23,6 +23,16 @@ This is guide on how to use form validation on our [web-next](https://github.com
 | Attr  | Format                           | Description            |
 ------- | -------------------------------- | ---------------------- |
 | rules | string separated by pipe symbol  | collection of rules    |
+
+#### Rules available
+| Rule          | Description                                                         |
+--------------- | ------------------------------------------------------------------- |
+| required      | The field cannot be empty and must be filled                        |
+| email         | The field must contain a string of email format                     |
+| min:[number]  | The field must contain a string that have at least X characters     |
+| max:[number]  | The field must contain a string that have at max X characters       |
+| containSymbol | The field must contain a string that mixed with symbol character    |
+| containNumber | The field must contain a string that mixed with number              |
 <br>
 
 #### Full Usage Example
