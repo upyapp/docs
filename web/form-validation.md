@@ -1,4 +1,4 @@
-<i>Last updated: August 2, 2022 9:59 AM</i>
+<i>Last updated: August 2, 2022 10:06 AM</i>
 
 ### Form validation guide
 This is a guide of how to use form validation on our [web-next](https://github.com/uuppyy/web-next) app, the validation using `useValidator` composable function, you can learn how it works [here](https://github.com/uuppyy/web-next/blob/main/composables/useValidator.ts).
@@ -32,7 +32,7 @@ This is a guide of how to use form validation on our [web-next](https://github.c
 | min:[number]  | The field must contain a string that have at least X characters     |
 | max:[number]  | The field must contain a string that have at max X characters       |
 | containSymbol | The field must contain a string that mixed with symbol character    |
-| containNumber | The field must contain a string that mixed with number              |
+| containNumber | The field must contain a string that mixed with numeric character   |
 <br>
 
 #### Full Usage Example
