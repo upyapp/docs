@@ -36,7 +36,7 @@ This is a guide of how to use form validation on our [web-next](https://github.c
 <br>
 
 #### Full Usage Example
-```
+```ts
 <template>
   <form id="login" @submit.prevent="login('login')">
     <!-- input: email or username -->
