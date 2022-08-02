@@ -1,7 +1,7 @@
 <i>Last updated: August 2, 2022 10:06 AM</i>
 
 ### Form validation guide
-This is a guide of how to use form validation on our [web-next](https://github.com/uuppyy/web-next) app, the validation using `useValidator` composable function, you can learn how it works [here](https://github.com/uuppyy/web-next/blob/main/composables/useValidator.ts).
+This is a guide of how to use form validation on our [web-next](https://github.com/uuppyy/web-next) app, the validation is using `useValidator` composable function, you can learn how it works [here](https://github.com/uuppyy/web-next/blob/main/composables/useValidator.ts).
 
 #### Tag used
 ```ts
